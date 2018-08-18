@@ -13,6 +13,144 @@
  *= require_tree .
  *= require_self
  */
+@import "bootstrap";
+
+.container {
+	padding:0 100px 0 140px;
+	width:100%;
+}
+
+//--header
+.menu ul {
+	list-style: none;
+	padding-left:0;
+}
+
+.menu li {
+	display: inline;
+	line-height: 100px;
+	font-size: 18px;
+	font-weight: 500;
+	line-height: 100px;
+	height: 100px;
+	margin: 0 20px 0 0;
+}
+
+.menu li a {
+	color:#000;}
+
+.menu li a:hover {
+	color: #DFA4A1;
+	text-decoration: underline;
+}
+
+
+.name h1 {color:#000;
+	font-size:18px;
+	line-height:100px;
+	height:100px;
+	margin:0;
+	text-align:right}
+
+//-- main section
+.main {
+	width:100%;
+}
+
+.main .container {
+	margin:80px 0;
+}
+
+.main h2 {
+	color:#000;
+	font-size:48px;
+	line-height:56px;
+	text-align:right;
+}
+
+.home h2 {
+	color:#fff;
+}
+
+.highlight {
+	background-color:#eaeff4;
+	color:#000;
+	padding:0 10px 0;
+}
+
+.home .jumbotron {
+	background-image: url('berlin-cover.jpg');
+	background-size:cover;
+	min-height:600px;
+	width:100%;
+}
+
+a.btn {
+	background-color:rgba(0,0,0,0.9);
+	border-radius:0;
+	color:#fff;
+	font-size:18px;
+	font-weight:100;
+	height:60px;
+	line-height:60px;
+	margin:40px 0;
+	padding:0;
+	transition:background-color .5s;
+	width:200px}
+
+a.btn:hover {
+	background-color: #DFA4A1;
+	opacity: 0.8;
+	color: #fff;
+	transition: background-color .5s;
+}
+
+.right {
+	float:right;
+}
+
+//--footer
+.footer {
+	background-color: #fff;
+	height:200px;
+	text-align:right;
+	width:100%}
+
+.footer .social_media {
+	margin:65px 0 20px;
+	width:100%}
+
+.social_media li {
+	display:inline-block;
+	height:24px;
+	margin:0 0 0 10px;
+	text-align:left;
+	text-indent:-9999px;
+	width:24px}
+
+.social_media li a {
+	display:block;
+	height:24px;
+	width:24px}
+
+.github {
+	background-image: url('github.png');
+	background-position: center;
+	background-size: cover;
+}
+
+.linkedin {
+	background-image: url('linkedin.png');
+	background-position: center center;
+	background-size: cover;
+}
+
+.xing {
+	background-image: url('xing.png');
+	background-position: center center;
+	background-size: cover;
+}
+
 
 
 
