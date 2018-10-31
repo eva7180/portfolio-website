@@ -105,6 +105,12 @@ a.btn:hover {
 .right {
 	float:right;
 }
+.about .jumbotron {
+	background-color: white;
+	min-height:600px;
+	width:100%;
+	border-radius: 0;
+}
 
 .about .row {
 	min-height: 400px;
@@ -122,11 +128,16 @@ a.btn:hover {
 	padding-left: 50px;
 }
 
+.contact .jumbotron {
+	background-color: white;
+	min-height:600px;
+	width:100%;
+	border-radius: 0;
+}
+
 .contact h2 {
 	padding-bottom: 80px;
 }
-
-
 
 .contact .col-md-3 a {
 	display:block;
@@ -136,6 +147,11 @@ a.btn:hover {
 	width:60px
 }
 
+.portfolio .jumbotron {
+	min-height:600px;
+	width:100%;
+	border-radius: 0;
+}
 
 
 //--footer
