@@ -106,17 +106,8 @@ a.btn:hover {
 	float:right;
 }
 
-.about .container {
-	padding: 0;
-	margin-left: 150px;
-	margin-right: 150px;
-	background-color: red;
-}
-
 .about .row {
 	min-height: 400px;
-	margin-left: 100px;
-	margin-right: 100px;
 }
 
 .myimage {
@@ -130,6 +121,22 @@ a.btn:hover {
 	text-align: right;
 	padding-left: 50px;
 }
+
+.contact h2 {
+	padding-bottom: 80px;
+}
+
+
+
+.contact .col-md-3 a {
+	display:block;
+	height:60px;
+	margin:0 auto 40px;
+	text-indent:-9999px;
+	width:60px
+}
+
+
 
 //--footer
 .footer {
@@ -169,6 +176,12 @@ a.btn:hover {
 
 .xing {
 	background-image: url('xing.png');
+	background-position: center center;
+	background-size: cover;
+}
+
+.email {
+	background-image: url('email.png');
 	background-position: center center;
 	background-size: cover;
 }
